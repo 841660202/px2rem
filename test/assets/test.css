@@ -1,0 +1,16 @@
+/* normal */
+body {
+  background: #eee;
+  color: #888; /* color is gray */
+  border: 1px solid; /*no*/
+  height: 20px; /* px */
+  padding: 6px; /*px*/
+  -webkit-animation: anim1 linear infinite;
+}
+
+/* hello world */
+/* hello world 2 */
+
+.footer {
+  height: 50px;
+}
