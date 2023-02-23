@@ -12,12 +12,12 @@ describe('should work with @2x origin css file', function () {
   var srcText = fs.readFileSync(srcPath, { encoding: 'utf8' });
   var srcText1 = fs.readFileSync(srcPath1, { encoding: 'utf8' });
 
-  it('[default] test', function () {
-    var outputText = px2remIns.generateThree(srcText1, 1);
-    // console.log('expectedPath', expectedPath);
-    console.log('outputText', outputText);
-    assert.equal('1', '1');
-  });
+  // it('[default] test', function () {
+  //   var outputText = px2remIns.generateThree(srcText1, 1);
+  //   // console.log('expectedPath', expectedPath);
+  //   console.log('outputText', outputText);
+  //   assert.equal('1', '1');
+  // });
   it('[default] should output right rem file', function () {
     var expectedPath = path.join(__dirname, 'output/default.rem.css');
     var outputText = px2remIns.generateRem(srcText);
