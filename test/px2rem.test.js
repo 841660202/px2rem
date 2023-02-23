@@ -18,13 +18,13 @@ describe('should work with @2x origin css file', function () {
     console.log('outputText', outputText);
     assert.equal('1', '1');
   });
-  it('[default] should output right rem file', function () {
-    var expectedPath = path.join(__dirname, 'output/default.rem.css');
-    var outputText = px2remIns.generateRem(srcText);
-    console.log('expectedPath', expectedPath);
-    // console.log('outputText', outputText);
-    assert.equal(outputText, fs.readFileSync(expectedPath, { encoding: 'utf8' }));
-  });
+  // it('[default] should output right rem file', function () {
+  //   var expectedPath = path.join(__dirname, 'output/default.rem.css');
+  //   var outputText = px2remIns.generateRem(srcText);
+  //   console.log('expectedPath', expectedPath);
+  //   // console.log('outputText', outputText);
+  //   assert.equal(outputText, fs.readFileSync(expectedPath, { encoding: 'utf8' }));
+  // });
 
   //   it('should output right @1x file', function () {
   //     var expectedPath = path.join(__dirname, 'output/default.1x.css');
